@@ -1,8 +1,10 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
+config=YAML.load_file('config/secrets.yml')
+set :repo_pwd, config["repo_pwd"]
 
 set :application, 'xtech'
-set :repo_url, "https://santoshnk7@github.com/santoshnk7/xtech-admin.git"
+set :repo_url, "https://santoshnk7:#{fetch(:repo_pwd)}@github.com/santoshnk7/xtech-admin.git"
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
