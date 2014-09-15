@@ -2,7 +2,7 @@
 lock '3.2.1'
 
 set :application, 'xtech'
-set :repo_url, "https://github.com/santoshnk7/xtech-admin.git"
+set :repo_url, 'git@github.com:santoshnk7/xtech-admin.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
