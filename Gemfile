@@ -11,7 +11,7 @@ gem 'carrierwave'
 gem 'mini_magick', '~> 3.8.0'
 gem 'fog'
 gem 'awesome_nested_set'
-
+gem 'therubyracer', group: :production
 #gem 'libv8-st', '~> 3.11.8.2'
 #gem 'therubyracer-st' 
 
@@ -21,7 +21,6 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem "meta_search",    '>= 1.1.0.pre'
-  gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 end
 
