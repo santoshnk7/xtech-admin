@@ -14,7 +14,7 @@ gem 'awesome_nested_set'
 gem 'therubyracer', group: :production
 #gem 'libv8-st', '~> 3.11.8.2'
 #gem 'therubyracer-st' 
-gem 'nokogiri', group: :development
+gem 'nokogiri'
 
 # Gems used only for assets and not required
 # in production environments by default.
