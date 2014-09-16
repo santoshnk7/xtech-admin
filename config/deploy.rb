@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.1.0'
+lock '3.2.1'
 
 set :application, 'xtech'
 set :repo_url, 'git@github.com:santoshnk7/xtech-admin.git'
