@@ -14,8 +14,7 @@ gem 'awesome_nested_set'
 gem 'therubyracer', group: :production
 #gem 'libv8-st', '~> 3.11.8.2'
 #gem 'therubyracer-st' 
-gem 'nokogiri', '>= 1.5.0'
-gem 'bcrypt-ruby', '~> 3.1.2'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -30,7 +29,7 @@ gem 'jquery-rails'
 gem 'capistrano',  '~> 3.1'
 gem 'capistrano-rails', '~> 1.1'
 gem 'capistrano-rvm'
-gem 'capistrano-bundler'
+gem 'capistrano-bundler', '~> 1.1.2'
 
 
 # To use ActiveModel has_secure_password
