@@ -1,7 +1,7 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
 
-set :application, 'xtech'
+set :application, 'xtech-new'
 set :repo_url, 'git@github.com:santoshnk7/xtech-admin.git'
 
 # Default branch is :master
