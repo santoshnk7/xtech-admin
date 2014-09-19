@@ -1,7 +1,3 @@
-PATH
-  remote: vendor/rails
-  specs:
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -229,7 +225,7 @@ DEPENDENCIES
   jquery-rails
   meta_search (>= 1.1.0.pre)
   mini_magick (~> 3.8.0)
-  nokogiri!
+  nokogiri
   pg (= 0.17.0)
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)
