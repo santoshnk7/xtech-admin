@@ -34,7 +34,7 @@ set :repo_url, 'git@github.com:santoshnk7/xtech-admin.git'
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
-set :rvm_ruby_version, '1.9.3@xtech-new'
+#set :rvm_ruby_version, '1.9.3@xtech-new'
 set :rails_env, 'production'
 
 desc "Uploads database.yml to server."
