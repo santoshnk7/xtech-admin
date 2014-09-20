@@ -11,7 +11,7 @@ set :repo_url, 'git@github.com:santoshnk7/xtech-admin.git'
 #set :rails_env, 'production'
 # setup rvm.
 set :rbenv_type, :system
-set :rbenv_ruby, '1.9.3'
+set :rbenv_ruby, '1.9.3-p547'
 set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
 set :rbenv_map_bins, %w{rake gem bundle ruby rails}
 
