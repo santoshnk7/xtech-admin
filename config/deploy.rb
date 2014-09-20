@@ -7,7 +7,7 @@ set :deploy_user, 'xtech'
 set :scm, :git
 set :repo_url, 'git@github.com:santoshnk7/xtech-admin.git'
 
-set :rvm_ruby_version, '1.9.3-p545@xtech-win'
+set :rvm_ruby_version, '1.9.3-p547'
 set :rails_env, 'production'
 
 
