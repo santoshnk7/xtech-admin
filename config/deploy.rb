@@ -7,13 +7,9 @@ set :deploy_user, 'xtech'
 set :scm, :git
 set :repo_url, 'git@github.com:santoshnk7/xtech-admin.git'
 
-#set :rvm_ruby_version, '1.9.3@xtech-new'
-#set :rails_env, 'production'
-# setup rvm.
-set :rbenv_type, :system
-set :rbenv_ruby, '1.9.3-p547'
-set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
-set :rbenv_map_bins, %w{rake gem bundle ruby rails}
+set :rvm_ruby_version, '1.9.3@xtech-new'
+set :rails_env, 'production'
+
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call

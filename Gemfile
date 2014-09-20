@@ -7,7 +7,6 @@ gem 'rails', '3.2.1'
 
 gem 'unicorn', group: :production
 gem 'capistrano-unicorn-nginx'
-gem 'capistrano-postgresql'
 gem 'pg','0.17.0'
 gem 'activeadmin'
 gem 'carrierwave'
@@ -31,7 +30,7 @@ end
 gem 'jquery-rails'
 gem 'capistrano',  '~> 3.1'
 gem 'capistrano-rails', '~> 1.1'
-gem 'capistrano-rbenv'
+gem 'capistrano-rvm'
 gem 'capistrano-bundler', '~> 1.1.2'
 
 
