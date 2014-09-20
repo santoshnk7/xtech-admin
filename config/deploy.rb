@@ -85,8 +85,8 @@ namespace :deploy do
   # only allow a deploy with passing tests to deployed
   before :deploy, "deploy:run_tests"
   # compile assets locally then rsync
-  after 'deploy:symlink:shared', 'deploy:compile_assets_locally'
-  after :finishing, 'deploy:cleanup'
+  #after 'deploy:symlink:shared', 'deploy:compile_assets_locally'
+  #after :finishing, 'deploy:cleanup'
 
   # remove the default nginx configuration as it will tend
   # to conflict with our configs.
