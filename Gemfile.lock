@@ -64,6 +64,9 @@ GEM
     capistrano-rvm (0.1.1)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
+    capistrano-unicorn-nginx (2.1.0)
+      capistrano (>= 3.1)
+      sshkit (>= 1.2.0)
     carrierwave (0.10.0)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
@@ -225,6 +228,7 @@ DEPENDENCIES
   capistrano-bundler (~> 1.1.2)
   capistrano-rails (~> 1.1)
   capistrano-rvm
+  capistrano-unicorn-nginx
   carrierwave
   coffee-rails (~> 3.2.1)
   fog

@@ -6,6 +6,7 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'unicorn', group: :production
+gem 'capistrano-unicorn-nginx'
 gem 'pg','0.17.0'
 gem 'activeadmin'
 gem 'carrierwave'
