@@ -7,6 +7,8 @@ gem 'rails', '3.2.1'
 
 gem 'unicorn', group: :production
 gem 'capistrano-unicorn-nginx'
+gem 'capistrano-postgresql'
+
 gem 'pg','0.17.0'
 gem 'activeadmin'
 gem 'carrierwave'
