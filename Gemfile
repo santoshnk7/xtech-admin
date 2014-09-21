@@ -17,6 +17,7 @@ gem 'therubyracer', group: :production
 #gem 'libv8-st', '~> 3.11.8.2'
 #gem 'therubyracer-st' 
 gem 'nokogiri'
+gem 'node'
 
 # Gems used only for assets and not required
 # in production environments by default.
