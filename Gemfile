@@ -33,7 +33,7 @@ end
 gem 'jquery-rails'
 gem 'capistrano',  '~> 3.1'
 gem 'capistrano-rails', '~> 1.1'
-gem 'capistrano-rvm'
+#gem 'capistrano-rvm'
 gem 'capistrano-bundler', '~> 1.1.2'
 
 
