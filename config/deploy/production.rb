@@ -6,9 +6,9 @@
 set :stage, :production
 set :branch, "master"
 
-role :app, %w{xtech@104.131.6.82}
-role :web, %w{xtech@104.131.6.82}
-role :db,  %w{xtech@104.131.6.82}
+role :app, %w{xtech@128.199.157.242}
+role :web, %w{xtech@128.199.157.242}
+role :db,  %w{xtech@128.199.157.242}
 
 # Extended Server Syntax
 # ======================
@@ -16,7 +16,7 @@ role :db,  %w{xtech@104.131.6.82}
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 
-server '104.131.6.82', user: 'xtech', roles: %w{web app}
+server '128.199.157.242', user: 'xtech', roles: %w{web app}
 
 
 # Custom SSH Options
