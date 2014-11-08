@@ -27,7 +27,7 @@ set :rails_env, 'production'
 # set :log_level, :debug
 
 # Default value for :pty is false
-# set :pty, true
+ set :pty, true
 
 # how many old releases do we want to keep
 set :keep_releases, 5
@@ -88,7 +88,7 @@ namespace :deploy do
   # only allow a deploy with passing tests to deployed
   before :deploy, "deploy:run_tests"
   # compile assets locally then rsync
-  after 'deploy:symlink:shared', 'deploy:compile_assets_locally'
+  #after 'deploy:symlink:shared', 'deploy:compile_assets_locally'
   after :finishing, 'deploy:cleanup'
 
   # remove the default nginx configuration as it will tend
