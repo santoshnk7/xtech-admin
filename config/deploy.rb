@@ -11,7 +11,7 @@ set :repo_url, 'git@github.com:santoshnk7/xtech-admin.git'
 #set :rvm_ruby_version, '1.9.3'
 
 set :rails_env, 'production'
-
+set :bundle_flags, '--deployment'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
