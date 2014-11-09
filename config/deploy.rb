@@ -1,7 +1,7 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
 require "bundler"
-set :sudo, 'sudo -p Password:'
+set :sudo, 'sudo -p xtech@admin2014:'
 set :application, 'xtech'
 set :deploy_user, 'xtech'
 
@@ -97,7 +97,7 @@ namespace :deploy do
 
   # reload nginx to it will pick up any modified vhosts from
   # setup_config
-  #after 'deploy:setup_config', 'nginx:reload'
+  after 'deploy:setup_config', 'nginx:reload'
 
   # As of Capistrano 3.1, the `deploy:restart` task is not called
   # automatically.
