@@ -1,7 +1,7 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
 require "bundler"
-set :sudo, 'sudo -p xtech@admin2014:'
+#set :sudo, 'sudo -p xtech@admin2014:'
 set :application, 'xtech'
 set :deploy_user, 'xtech'
 
