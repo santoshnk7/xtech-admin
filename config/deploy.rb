@@ -88,7 +88,7 @@ namespace :deploy do
   # only allow a deploy with passing tests to deployed
   before :deploy, "deploy:run_tests"
   # compile assets locally then rsync
-  #after 'deploy:symlink:shared', 'deploy:compile_assets_locally'
+  after 'deploy:symlink:shared', 'deploy:compile_assets_locally'
   after :finishing, 'deploy:cleanup'
 
   # remove the default nginx configuration as it will tend
@@ -101,5 +101,5 @@ namespace :deploy do
 
   # As of Capistrano 3.1, the `deploy:restart` task is not called
   # automatically.
-  #after 'deploy:publishing', 'deploy:restart'
+  after 'deploy:publishing', 'deploy:restart'
 end
