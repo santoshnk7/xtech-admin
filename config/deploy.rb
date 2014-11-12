@@ -70,7 +70,6 @@ set(:symlinks, [
     source: "unicorn_init.sh",
     link: "/etc/init.d/unicorn_#{fetch(:full_app_name)}"
   },
-  
 ])
 
 
