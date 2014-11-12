@@ -1,6 +1,5 @@
 # Load DSL and Setup Up Stages
 require 'capistrano/setup'
-#set :sudo, 'sudo -p xtech@admin2014:'
 
 # Includes default deployment tasks
 require 'capistrano/deploy'
